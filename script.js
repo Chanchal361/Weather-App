@@ -68,8 +68,8 @@ searchTab.addEventListener("click",()=>{
 //     }
 
 //  }
-
-///by me 
+  
+///another ways 
 
  function fetchUserWeatherInfo(coordinates){
      const {lat,lon}=coordinates;
@@ -85,7 +85,7 @@ searchTab.addEventListener("click",()=>{
         renderWeather(data);
     })
     .catch((e)=>{
-        alert(`e`)
+        alert(e)
     })
 
  }
